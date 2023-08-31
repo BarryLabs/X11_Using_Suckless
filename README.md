@@ -9,7 +9,12 @@ CTRL + Up Arrow > Zooms in within terminal.
 CTRL + Down Arrow > Zooms out within terminal.
 
 ## Installation
-To clone the repository you can use the following command.
+First, assuming you are on a minimal installation you will need to get X11. To acquire everything you need you will need to run the following command.
+~~~
+sudo pacman -S xorg-server xorg-xinit libx11 libxinerama libxft webkit2gtk
+~~~
+
+With everything to run X11, all you need to do is to clone the repository with the following command.
 ~~~
 git clone https://github.com/BarryLabs/X11_Using_Suckless.git
 ~~~
@@ -44,4 +49,4 @@ The underscored file is your original copy so if you want to return to that it s
 source ~/.bashrc
 ~~~
 
-I recommend using ranger with this build which is why I also included ranger as its part of my aesthetic display however I also use thunar.
+I recommend using ranger with this build which is why I also included ranger as its part of my aesthetic display however I also use thunar sometimes.
