@@ -30,3 +30,18 @@ Once installed you will need to make sure that your .xinitrc file starts dwm by 
 ~~~
 exec dwm
 ~~~
+
+### .bashrc
+I included my .bashrc file which has a handful of useful commands for this setup. This step is optional as its just command aliases and the shell prompt.
+
+The .bashrc file will also be moved with the other contents of the X11_Using_Suckless folder so run the following command to put it into your home directory, backup your old .bashrc and replace it with this once.
+~~~
+mv .bashrc .bashrc_ && mv .config/.bashrc /home/$USER/.bashrc
+~~~
+
+The underscored file is your original copy so if you want to return to that it should be easy. Once this is done, run the following command to source the file.
+~~~
+source ~/.bashrc
+~~~
+
+I recommend using ranger with this build which is why I also included ranger as its part of my aesthetic display however I also use thunar.
