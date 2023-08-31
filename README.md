@@ -23,7 +23,7 @@ Install each of them by using the following commands.
 ~~~
 cd ~/.config/dmenu/ && sudo make clean install
 cd ~/.config/dwm/ && sudo make clean install
-cd /.config/st/ && sudo make clean install
+cd ~/.config/st/ && sudo make clean install
 ~~~
 
 Once installed you will need to make sure that your .xinitrc file starts dwm by appending the following to the .xinitrc.
